@@ -9,7 +9,7 @@ import {
 } from "react-native";
 
 import { createStore } from "redux";
-import { Provider, useSelector, useDispatch, connect } from "react-redux";
+import { Provider, connect } from "react-redux";
 
 // reducer based refreshing prop
 const initState = {
